@@ -2,12 +2,13 @@
 
 body {
 	color: rgb(21,21,21);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: rgba(59,59,59,1.00);
 }
 
 #buff-background {
 	background-image: url("images/b52-bomber.png");
 	background-repeat: no-repeat;
-	background-color: rgba(59,59,59,1.00);
 	background-position: center;
 	background-position-y: 30%;
 /*	background-position-x: 50% ;*/
@@ -31,4 +32,16 @@ body {
 	background-color: rgba(41,41,41,1.00);
 	margin: 10px;
 	color: #868474;
+}
+
+
+/*Quiz Browsing Layout*/
+
+.flex-container {
+	
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: rgba(30,30,30,1.00);
+	border-radius: 8px;
+	
 }
